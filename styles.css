@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', 'Brush Script MT', cursive;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('bri.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Made slightly transparent */
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Increased shadow for better contrast */
+} 
+
+.remember span,
+.forgot {
+    font-family: 'Segoe UI', sans-serif; /* Keep inputs readable */
+}
+
+h2 {
+    font-size: 2.5em; /* Made slightly larger to suit cursive style */
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.
+}
+
+/* Add specific styling for the form inputs to maintain readability */
+input, 
+.login-btn {
+    font-family: 'Segoe UI', sans-serif; /* Keep inputs readable */
+} 
